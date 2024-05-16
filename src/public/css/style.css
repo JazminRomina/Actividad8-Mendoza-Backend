@@ -1,0 +1,148 @@
+h1 {
+    text-align: center;
+    font-size: 2.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 1.45em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    gap: 0px 40px;
+    grid-auto-flow: row;
+}
+
+.cardsRealTime {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: .75fr 1fr 1fr 1fr 1fr 1fr .25fr .5fr;
+    gap: 0px 10px;
+}
+
+.pRealTime {
+    color: red;
+}
+
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.box{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxChatDesign {
+    padding: 8px;
+    text-align: left;
+    padding-right: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.messageDesign{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.boxMessage{
+    margin-left: -250px;
+}
+
+.titleWhats{
+    color: #7066e0;
+}
+
+.subtitleWhats{
+    color: #7066e0;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textMessage{
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.beforeAfter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.prodsCardsViews{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    gap: 0px 40px;
+    grid-auto-flow: row;
+}
+
+.productosCartViews{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    gap: 0px 40px;
+    grid-auto-flow: row;
+}
+
+.sessionWelcomeProducts{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.registerAccount{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profileUser{
+    display: flex;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-direction: column;
+}

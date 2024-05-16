@@ -1,0 +1,26 @@
+<h1>List of the Real Time Products</h1>
+
+<div class="formContainer">
+<h2>Form to add/delete Products</h2>
+<p class="pRealTime"> (*) Para eliminar un producto requiere de colocar el codigo de dicho producto a eliminar y cambiar el status de <b>'Active'</b> a <b>'Inactive'</b> y pulsar el botón de enviar.</p>
+<form>
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="description" placeholder="Description">
+    <input type="number" id="price" placeholder="Price">
+    <input type="text" id="thumbnail" value="Sin Imagen">
+    <input type="text" id="code" placeholder="Code">
+    <input type="number" id="stock" placeholder="Stock">
+    <select id="status">
+        <option value="true"> Active </option>
+        <option value="false"> Inactive </option>
+    </select>
+    <input type="text" id="category" placeholder="Category">
+    <button type="button" id="btnSend"> Send </button>
+</form>
+</div>
+
+<div id="containerProducts" class="cardsRealTime"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="js/main.js">

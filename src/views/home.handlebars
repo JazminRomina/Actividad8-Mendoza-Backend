@@ -1,0 +1,25 @@
+<h1>List of Products</h1>
+
+<div>
+    {{#each prods}}
+        <div class="cards">
+            <h2>{{this.title}}</h2>
+            <p>${{this.price}}</p>
+            <p>Description: {{this.description}}</p>
+            <p>Category: {{this.category}}</p>
+            <p>Stock: {{this.stock}}</p>
+        </div>
+    {{/each}}
+</div>
+
+<div>
+    {{#if hasPrevPage}}
+    <a href="/?page={{prevPage}}"> back </a>
+    {{/if}}
+
+    {{#if hasNextPage}}
+        <a href="/?page={{nextPage}}"> next </a>
+    {{/if}}
+
+    <p>Page {{currentPage}} of {{totalPages}} </p>
+</div>
